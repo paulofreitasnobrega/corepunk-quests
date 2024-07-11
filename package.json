@@ -1,0 +1,23 @@
+{
+  "name": "corepunk-quests",
+  "version": "0.0.1",
+  "description": "Quest dialogues for the game Corepunk",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulofreitasnobrega/corepunk-quests.git"
+  },
+  "keywords": [
+    "corepunk",
+    "quests"
+  ],
+  "author": "Sr. Agnostos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulofreitasnobrega/corepunk-quests/issues"
+  },
+  "homepage": "https://github.com/paulofreitasnobrega/corepunk-quests#readme"
+}

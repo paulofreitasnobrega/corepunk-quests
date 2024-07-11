@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #A89D92;
+    cursor:url("../images/cursor.png"), auto;    
+    background-color: #1C1528;
+    background-image: url("../images/bg01.png");
+}
+
+/* Master */
+#container-master {
+    width: 700px;
+    height: auto;    
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* Header */
+#container-header {
+    width: 100%;
+    height: 183px;
+    border: 4px solid transparent;
+}
+
+#container-header-left {
+    width: 300px;
+    height: 186px;
+    float: left;
+    margin-left: 40px;
+    /* background-color: #4C3A6E; */
+}
+
+#container-header-right {
+    width: 280px;
+    height: 186px;
+    float: left;
+    padding-left: 40px;
+    text-align: center;
+    /* background-color: aqua; */
+}
+
+#container-header-right h2 {
+    color: #FFBB5A;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#container-header-right h2 img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+#container-header-right p {
+    font-size: 13px;
+    margin-bottom: 22px;
+}
+
+#container-header-right form {
+    display:flex;
+    flex-direction:row;
+}
+
+#container-header-right input {
+    flex-grow:2;
+    border-radius: 5px 0 0 5px;
+    border: 2px solid #FFBB5A;
+    padding: 0 10px;
+}
+
+#container-header-right input:focus {
+    outline: none;
+}
+
+#container-header-right button {
+    width: 40px;
+    height: 40px;
+    border-radius: 0 5px 5px 0;
+    background-color: #FFBB5A;
+    background-image: url("../images/thumbs_up.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: url("../images/cursor.png"), auto;
+}
+
+#container-header-right button:hover {
+    background-color: #ffaa33;
+}
+
+/* Content */
+#container-content {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    overflow-y: scroll;
+    scrollbar-width: thin;    
+    scrollbar-color: #4C3A6E #191324;
+    background-color: #191324;    
+    border-radius: 10px;
+    opacity: 0.95;
+    border: 4px solid #251C35;
+    box-shadow: rgb(12, 9, 17) 0px 20px 30px -10px;    
+}
+
+/* Quests List */
+ul#quests-list {
+    padding: 20px 40px; 
+}
+
+ul#quests-list li {
+    padding: 10px;
+    margin: 0 0 5px 0;    
+    list-style: none;
+    border: 1px solid #4C3A6E;
+    border-radius: 3px;
+    background-image: linear-gradient(-45deg, rgba(255,0,0,0), rgba(80,60,110,0.4));
+}
+
+ul#quests-list li:hover {
+    color: #fff;
+    border: 1px solid #FFBB5A;
+    background-image: linear-gradient(-45deg, rgba(255,0,0,0), rgba(255,175,72,0.4));
+}
+
+ul#quests-list li span {
+    float: right;
+    color: #A89D92;
+    padding: 2px 10px;
+    font-size: 12px;
+    border-radius: 3px;
+    vertical-align: middle;
+    background-color: #4C3A6E;
+}
+
+ul#quests-list li:hover span {
+    color:#1C1528;
+    background-color: #FFBB5A;
+}
+
+/* Messages */
+#message {
+    text-align: center;
+}
+
+#message img {
+    vertical-align: middle;
+}
+
+/* Dialog */
+#dialog {
+    width: 100%;
+    height: auto;
+}
+
+#dialog-header {
+    border-bottom: 1px solid #251C35;
+}
+
+#dialog-header h4 {
+    display: inline-block;    
+    margin-left: 40px;
+}
+
+#dialog-header span {
+    margin: 20px 40px 0 0;
+    float: right;
+    color: #1C1528;
+    padding: 2px 10px;
+    font-size: 12px;
+    border-radius: 3px;
+    vertical-align: middle;
+    background-color: #FFBB5A;
+}
+
+#dialog ol {
+    padding: 20px;
+    margin: 0 40px;
+}
+
+#dialog ol li {
+    margin-bottom: 5px;
+}
+
+/* Footer */
+#container-footer {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* More Class */
+.error {
+    color: #B9334C;
+}
+
+.container-geral {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.btn {
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    font-style: none;
+    color: #A89D92;
+    border-radius: 5px;
+    padding: 8px 16px;
+    display: inline-block;
+    background-color: #251C35;
+    cursor:url("../images/cursor.png"), auto;
+}
+
+.btn:hover {
+    color: #1C1528;
+    background-color: #FFBB5A;
+}
